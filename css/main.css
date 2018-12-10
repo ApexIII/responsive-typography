@@ -90,38 +90,39 @@ article > p:last-child {
 
 }
 
-  @media only screen and (min-width: 90em) {
+@media only screen and (min-width: 90em) {
 
-    html {
-      font-size: 130%;
-    }
-
+  html {
+    font-size: 130%;
   }
 
-  @media only screen and (min-width: 60em) {
+}
 
-    html {
-      font-size: 120%;
-      line-height: 1.5;
-    }
+@media only screen and (min-width: 60em) {
 
-    article p {
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
-      margin-bottom: 1.5rem;
-    }
+  article p {
 
-    article ol {
+    margin-bottom: 1.5rem;
+  }
 
-      margin-bottom: 1.5rem;
-    }
+  article ol {
 
-    article header {
+    margin-bottom: 1.5rem;
+  }
 
-      margin-bottom: 1.5rem;
-      padding-top: 1.5rem;
-    }
+  article header {
 
-    article header p {
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
 
-      margin-bottom: 1.5rem;
-    }
+  article header p {
+
+    margin-bottom: 1.5rem;
+  }
+}
