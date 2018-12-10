@@ -51,3 +51,20 @@ blockquote {
 .quote {
   color: #999;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  article p {
+
+    margin-bottom: 1.4rem;
+  }
+
+  article ol {
+
+    margin-bottom: 1.4rem;
+  }
